@@ -1,6 +1,38 @@
-# @mariogironm/tokengen
+# @mariogironm/tokengen - Token Generator
 
-![Versión](https://img.shields.io/badge/npm-v1.0.0-blue.svg)
+![Versión](https://img.shields.io/badge/npm-v2.3.0-blue.svg)
 [![install size](https://packagephobia.now.sh/badge?p=@mariogironm/tokengen)](https://packagephobia.now.sh/result?p=@mariogironm/tokengen)
 
-Generador de tokens
+
+<!-- ![](logo.png) -->
+
+
+* * *
+
+Genera cadenas de caracteres aleatorias con diferentes símbolos o números. 
+
+
+### Download & Installation
+
+```shell 
+$ npm i boilerplate-readme-template 
+```
+
+### Code Demo
+
+```javascript 
+
+let tokengen = require('@mariogironm/tokengen')
+
+let token = tokengen({
+    length: 16, // default 8
+    chars: true, // default true
+    numbers: false, // default true
+    symbols: true // default true
+})
+
+```
+
+### Autor
+
+*   Mario Girón
