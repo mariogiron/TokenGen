@@ -7,8 +7,7 @@ let tokengen = ({ length = 8, chars = true, numbers = true, symbols = true, excl
 
     let aux = resultChars.split('').filter(item => !exclude.includes(item))
     resultChars = aux.join('')
-    console.log(resultChars)
-
+    
     let token = '';
     for (let i = 0; i < length; i++) {
         token += resultChars[Math.floor(Math.random() * resultChars.length)];
