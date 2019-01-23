@@ -15,7 +15,7 @@ Genera cadenas de caracteres aleatorias con diferentes símbolos o números.
 ### Download & Installation
 
 ```shell 
-$ npm i boilerplate-readme-template 
+$ npm install @mariogironm/tokengen
 ```
 
 ### Code Demo
