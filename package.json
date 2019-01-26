@@ -1,12 +1,13 @@
 {
     "name": "@mariogironm/tokengen",
-    "version": "2.5.1",
-    "description": "Generador de tokens",
+    "version": "2.5.2",
+    "description": "Token Generator",
     "license": "MIT",
     "repository": "mariogiron/tokengen",
     "main": "index.js",
     "keywords": [
         "tokengen",
+        "token",
         "npm",
         "package",
         "mariogironm"

@@ -9,7 +9,7 @@
 
 * * *
 
-Genera cadenas de caracteres aleatorias con diferentes símbolos o números. 
+Generates random character strings with different symbols or numbers. 
 
 
 ### Download & Installation
