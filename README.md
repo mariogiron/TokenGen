@@ -1,4 +1,4 @@
-# @mariogironm/tokengen - Token Generator
+# Token Generator
 
 ![Versión](https://img.shields.io/badge/npm-v2.5.0-blue.svg)
 [![install size](https://packagephobia.now.sh/badge?p=@mariogironm/tokengen)](https://packagephobia.now.sh/result?p=@mariogironm/tokengen)
