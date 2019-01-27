@@ -1,8 +1,4 @@
 let tokengen = require('./index')
 
-let token = tokengen({
-    chars: true,
-    symbols: false,
-    exclude: ['a']
-})
+let token = tokengen()
 console.log(token)

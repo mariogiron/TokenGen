@@ -1,4 +1,5 @@
-let tokengen = ({ length = 8, chars = true, numbers = true, symbols = true, exclude = [] }) => {
+let tokengen = ({ length = 8, chars = true, numbers = true, symbols = true, exclude = [] } = {length:8}) => {
+    
     if(!chars && !numbers && !symbols) throw new SyntaxError('Debes activar uno de los conjuntos de caracteres')
     let resultChars = ''
     if (chars) resultChars += 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
